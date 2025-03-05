@@ -1,4 +1,3 @@
-# Skitech
 
 ## Project Overview
 This project is designed for diagnosing ECG signals using machine learning techniques. It includes backend services for handling model predictions, API endpoints for interaction, and unit tests for ensuring reliability.
