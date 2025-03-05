@@ -10,13 +10,13 @@ This project is designed for diagnosing ECG signals using machine learning techn
 - Image and report retrieval
 
 ## Installation
-### Prerequisites
+#### Prerequisites
 Ensure you have Python installed (recommended: Python 3.8 or later).
 
 ### Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/vikaspal9131/DevdockXPrayatna.git
    cd skitech
    ```
 2. Create a virtual environment and activate it:
@@ -25,9 +25,7 @@ Ensure you have Python installed (recommended: Python 3.8 or later).
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+   from setup.py
 
 ## Running the Application
 ### Start the Application
@@ -64,5 +62,20 @@ python -m unittest discover tests
 | `/api/users/register`    | POST   | Register a new user                |
 | `/api/users/login`       | POST   | Authenticate a user                |
 | `/api/users/profile`     | GET    | Retrieve user profile              |
+
+
+## Webpages 
+
+
+![Alt text](Readmeimage/Screenshot%202025-03-05%20202537.png)
+![Alt text](Readmeimage/Screenshot%202025-03-05%20202557.png)
+
+![Alt text](Readmeimage/Screenshot%202025-03-05%20202632.png)
+![Alt text](Readmeimage/Screenshot%202025-03-05%20202649.png)
+
+![Alt text](Readmeimage/Screenshot%202025-03-05%20202707.png)
+![Alt text](Readmeimage/Screenshot%202025-03-05%20202632.png)
+![Alt text](Readmeimage/Screenshot%202025-03-05%20202724.png)
+
 
 
