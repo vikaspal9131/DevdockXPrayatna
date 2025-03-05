@@ -1,14 +1,13 @@
-# Skitech Streamlit
+# Skitech
 
 ## Project Overview
-This project is a Streamlit-based application designed for diagnosing ECG signals using machine learning techniques. It includes backend services for handling model predictions, API endpoints for interaction, and unit tests for ensuring reliability.
+This project is designed for diagnosing ECG signals using machine learning techniques. It includes backend services for handling model predictions, API endpoints for interaction, and unit tests for ensuring reliability.
 
 ## Features
 - ECG signal diagnosis using ML models
 - REST API endpoints for model interaction
 - User authentication and profile management
 - Image and report retrieval
-- Streamlit-based frontend
 
 ## Installation
 ### Prerequisites
@@ -18,7 +17,7 @@ Ensure you have Python installed (recommended: Python 3.8 or later).
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd skitech-streamlit
+   cd skitech
    ```
 2. Create a virtual environment and activate it:
    ```bash
@@ -31,9 +30,9 @@ Ensure you have Python installed (recommended: Python 3.8 or later).
    ```
 
 ## Running the Application
-### Start the Streamlit App
+### Start the Application
 ```bash
-streamlit run app.py
+python app.py
 ```
 
 ### Running Tests
@@ -46,7 +45,7 @@ python -m unittest discover tests
 ```
 - backend/        # Contains the backend logic and API endpoints
 - tests/          # Unit tests for API endpoints and ML models
-- app.py          # Streamlit application entry point
+- app.py          # Application entry point
 - requirements.txt # Project dependencies
 - setup.py        # Package setup configuration
 ```
@@ -66,4 +65,6 @@ python -m unittest discover tests
 | `/api/users/login`       | POST   | Authenticate a user                |
 | `/api/users/profile`     | GET    | Retrieve user profile              |
 
+## License
+This project is licensed under the MIT License.
 
