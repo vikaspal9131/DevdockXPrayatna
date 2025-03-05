@@ -65,6 +65,4 @@ python -m unittest discover tests
 | `/api/users/login`       | POST   | Authenticate a user                |
 | `/api/users/profile`     | GET    | Retrieve user profile              |
 
-## License
-This project is licensed under the MIT License.
 
